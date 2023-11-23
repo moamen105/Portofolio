@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,700&display=swap');
+
+/**************************************************** main **********************************************/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}body{
+    background-color: black;
+}.container{
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+}
+
+/**************************************************** navBar **********************************************/
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 15px 50px;
+    box-shadow: 0px -30px 50px wheat;
+}header h1{
+    font-size: 35px;
+    letter-spacing: 1px;
+    color: wheat;
+    text-transform: capitalize;
+    font-weight: bold;
+}header h1 span{
+    color: #f9004d;
+}header li{
+    display: inline-block;
+
+}header ul li a{
+    margin: 0 15px;
+    padding-bottom: 5px;
+}header ul li a:hover{
+    border-bottom:solid white 2px ;
+}header a{
+    text-decoration: none;
+    color: wheat;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}header .head-btn{
+    padding: 7px 25px;
+    border-radius: 25px;
+    transition-duration: 0.5s;
+    font-weight: bold;
+    background-color: #f9004d;
+}header .head-btn:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px wheat;
+    transform: scale(1.1);
+}
+
+/**************************************************** main content **********************************************/
+
+.main-content{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 650px;
+    margin: auto;
+    width: 90%;
+}.main-content-text{
+    color: wheat;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}.main-content-text h4{
+    font-size: 20px;
+    color: #f5deb3a9;
+    margin-bottom: 20px;
+}.main-content-text h1{
+    font-size: 40px;
+}.main-content-text h3{
+    font-size: 25px;
+}.main-content-text h3 span{
+    color: #f9004d;
+}.main-content-text .contact-me-btn{
+    display: inline-block;
+    background-color: #f9004d;
+    margin-top: 50px;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0 ;
+    border-radius: 15px;
+    text-decoration: none;
+    color: wheat;
+    transition-duration: 0.5s;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+}.main-content-text .contact-me-btn:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 10px wheat;
+    
+}.buttonClicked {
+    background-color: #ff5733;
+    color: #ffffff;
+}.main-content-img{
+    width: 300px;
+    border: solid 10px wheat;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px #f5deb3be;
+}#main-content-img{
+    width: 100%;
+    border-radius: 50%;
+    outline: solid 5px #f9004d;
+}.socail-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    column-gap: 25px;
+    
+}.socail-icons a{
+    font-size: 35px;
+    fill: #f9004d;
+    transition-duration: 0.5s;
+}.socail-icons a:hover{
+    fill: wheat;
+}
+
+/**************************************************** about me **********************************************/
+
+.about-me{
+    color: wheat;
+    background-color: #343a4091;
+    width: 60%;
+    margin: 0px auto;
+    margin-bottom: 45px;
+    border-radius: 25px;
+    padding: 10px 25px;
+    height: 500px;
+}.about-me h1{
+    font-size: 35px;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}.about-me p{
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: #ffffffc3;
+    margin: auto;
+    width: 60%;
+    margin-top: 40px;
+    text-align: center;
+}
